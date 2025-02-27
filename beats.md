@@ -18,10 +18,10 @@ Beats me **bahut saare modules** hain, but sabse zyada **Filebeat aur Metricbeat
 ✅ **Security Logs** (e.g., Firewall, VPN)  
 
 ### **🔥 Filebeat Ka Workflow**  
-1️⃣ Filebeat **log files monitor** karoge.  
-2️⃣ Jab **naya log entry aayega**, Filebeat usko collect karoge.  
+1️⃣ Filebeat **log files monitor** karega.  
+2️⃣ Jab **naya log entry aayega**, Filebeat usko collect karega.  
 3️⃣ Data ko **Elasticsearch ya Logstash** me bhejega.  
-4️⃣ Tu Kibana me logs ka **real-time analysis** kar sakta hai.  
+4️⃣ tum Kibana me logs ka **real-time analysis** kar sakte hao.  
 
 #### **🛠️ Example (Apache Logs Monitor Karna)**  
 ```yaml
@@ -48,9 +48,9 @@ output.elasticsearch:
 ✅ **Cloud Services Monitoring** (AWS, Azure, GCP)  
 
 ### **🔥 Metricbeat Ka Workflow**  
-1️⃣ Metricbeat system se **performance metrics collect karoge.**  
+1️⃣ Metricbeat system se **performance metrics collect karega.**  
 2️⃣ Data ko **Elasticsearch ya Logstash me bhejega.**  
-3️⃣ Tu Kibana ke dashboard me **real-time server health dekh sakta hai.**  
+3️⃣ tum Kibana ke dashboard me **real-time server health dekh sakte hao.**  
 
 #### **🛠️ Example (Server CPU & RAM Usage Monitor Karna)**  
 ```yaml
@@ -82,4 +82,4 @@ output.elasticsearch:
 ## **🎯 Conclusion**  
 ✅ **Filebeat logs ka data bhejta hai, Metricbeat system aur application ka performance monitor karta hai.**  
 ✅ **Dono Elasticsearch ya Logstash ke saath kaam karte hain.**  
-✅ **Agar tu logs analyze karna chahta hai, toh Filebeat best hai. Agar tu system monitoring chahta hai, toh Metricbeat best hai!** 🔥  
+✅ **Agar tum logs analyze karna chahte ho, toh Filebeat best hai. Agar tum system monitoring chahte ho, toh Metricbeat best hai!** 🔥  
