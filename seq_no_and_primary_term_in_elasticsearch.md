@@ -182,3 +182,7 @@ POST /products/_update/101
 👉 **`_seq_no` har update ke saath badhta hai.**  
 👉 **`_primary_term` tab badhta hai jab cluster me leader node change hota hai.**  
 👉 **Ye system concurrency control aur data consistency ke liye use hota hai.**  
+
+---
+[Reference Video Link](https://youtu.be/ifr0uxteQNM?si=DObdf63g6Tvj7OGH)
+---

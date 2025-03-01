@@ -29,6 +29,43 @@
 
 [Global & Local Checkpoints in Elasticsearch](./global_and_local_checkpoints_in_elasticsearch.md)
 
+[Understanding Document Versioning](./understanding_document_versioning.md)
+
+[Optimistic Concurrency Control](./optimistic_concurrency_control.md)
+
+[Update And Delete By Query](./update_and_delete_by_query.md)
+
+[Bulk Api](./bulk_api.md)
+
+[Introduction To Analysis](./4.Mapping&Analysis/introduction_to_analysis.md)
+
+[Understanding Inverted Indices](./4.Mapping&Analysis/understanding_inverted_indices.md)
+
+[How does doc_values work in ElasticSearch](./4.Mapping&Analysis/how_does_doc_values_work_in_elasticsearch.md)
+
+[Understanding Mapping in Elasticsearch](./4.Mapping&Analysis/understanding_mapping_in_elasticsearch.md)
+
+[Overview of Data Types](./4.Mapping&Analysis/overview_of_data_types.md)
+
+[How The "keyword" Data Type Works](./4.Mapping&Analysis/how_the_keyword_data_type_works.md)
+
+[Understanding Type Coercion](./4.Mapping&Analysis/understanding_type_coercion.md)
+
+[Understanding Arrays In Elasticsearch](./4.Mapping&Analysis/understanding_arrays_in_elasticsearch.md)
+
+[How Dates Work In Elasticsearch](./4.Mapping&Analysis/how_dates_work_in_elasticsearch.md)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
