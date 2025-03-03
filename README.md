@@ -55,7 +55,7 @@
 
 [How Dates Work In Elasticsearch](./4.Mapping&Analysis/how_dates_work_in_elasticsearch.md)
 
-
+[Overview of Mapping Parameters in Elasticsearch](./4.Mapping&Analysis/overview_of_mapping_parameters_in_elasticsearch.md)
 
 
 
