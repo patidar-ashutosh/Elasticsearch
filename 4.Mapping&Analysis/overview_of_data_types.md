@@ -2,6 +2,8 @@
 
 Data types documents ke fields ko define karne aur efficiently search operations perform karne ke liye use hote hain.  
 
+**We can use data types during the mapping of index**
+
 ---
 
 ## **Table of Contents**  
@@ -229,3 +231,101 @@ user.address.zipcode → "10001"
 ✅ **Nested data type** is used to maintain relationships in arrays of objects but is slower in performance.  
 ✅ **Apache Lucene does not support objects**, so Elasticsearch flattens them for indexing.  
 
+
+## **8. Example of Data Types During Mapping**  
+
+### **1. Employee Index Mapping Create Karna**
+```json
+PUT employee
+{
+  "mappings": {
+    "properties": {
+      "name": {
+        "type": "object",
+        "properties": {
+          "firstname": { "type": "text" },
+          "lastname": { "type": "text" }
+        }
+      },
+      "email": { "type": "keyword" },
+      "dob": { "type": "date" },
+      "experience": {
+        "type": "nested",
+        "properties": {
+          "company_name": { "type": "text" },
+          "duration_in_months": { "type": "integer" }
+        }
+      },
+      "current_salary": { "type": "long" },
+      "on_notice_period": { "type": "boolean" }
+    }
+  }
+}
+```
+
+---
+
+### **2. Mapping Print Karna**
+```json
+GET employee/_mapping
+```
+**Output (mapping structure):**
+```json
+{
+  "employee": {
+    "mappings": {
+      "properties": {
+        "name": {
+          "properties": {
+            "firstname": { "type": "text" },
+            "lastname": { "type": "text" }
+          }
+        },
+        "email": { "type": "keyword" },
+        "dob": { "type": "date" },
+        "experience": {
+          "type": "nested",
+          "properties": {
+            "company_name": { "type": "text" },
+            "duration_in_months": { "type": "integer" }
+          }
+        },
+        "current_salary": { "type": "long" },
+        "on_notice_period": { "type": "boolean" }
+      }
+    }
+  }
+}
+```
+
+---
+
+### **3. Employee Document Insert Karna**
+```json
+POST employee/_doc/1
+{
+  "name": {
+    "firstname": "Amit",
+    "lastname": "Sharma"
+  },
+  "email": "amit.sharma@example.com",
+  "dob": "1990-05-15",
+  "experience": [
+    {
+      "company_name": "Google",
+      "duration_in_months": 24
+    },
+    {
+      "company_name": "Microsoft",
+      "duration_in_months": 36
+    }
+  ],
+  "current_salary": 3200000,
+  "on_notice_period": true
+}
+```
+
+
+---
+[Reference Video Link](https://youtu.be/KUYuXHJTGUc?si=Em_spYGvXaxCWcph)
+---

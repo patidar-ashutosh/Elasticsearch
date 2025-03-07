@@ -193,7 +193,6 @@ PUT /custom_index
 }
 ```
 
-```
 🔹 **Test the Custom Analyzer**  
 ```json
 GET custom_index/_analyze

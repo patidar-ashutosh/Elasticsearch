@@ -53,7 +53,7 @@ POST /_bulk
 
 ## **2️⃣ Bulk Indexing (Insert Multiple Documents in One Request Using Create)**  
 
-**Bulk API** me `"create"` operation bhi hota hai, jo **sirf naye documents insert** karne ke liye use hota hai. `"index"` bhi documents insert karta hai, but **`"create"` agar document pehle se exist karta ho to usko overwrite kar deta hai**.  
+**Bulk API** me `"create"` operation bhi hota hai, jo **sirf naye documents insert** karne ke liye use hota hai. `"index"` bhi documents insert karta hai, but **`"index"` agar document pehle se exist karta ho to usko overwrite kar deta hai**.  
 
 Agar tumhe ensure karna hai ki **documents sirf naye hi create ho, existing documents overwrite na ho**, to `"create"` operation ka use karna chahiye.  
 
