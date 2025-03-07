@@ -153,9 +153,9 @@
 
 [Terms Lookup Mechanism](./6.Joining_Queries/terms_lookup_mechanism.md)
 
+[Join Limitations](./6.Joining_Queries/join_limitations.md)
 
-
-
+[Join Field Performance Considerations](./6.Joining_Queries/join_field_performance_considerations.md)
 
 
 8al9IxNPWyxGe8xdVD9h
