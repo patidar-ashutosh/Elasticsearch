@@ -158,4 +158,74 @@
 [Join Field Performance Considerations](./6.Joining_Queries/join_field_performance_considerations.md)
 
 
+
+
+[Specifying the Result Format](./7.Controlling_Query_Results/specifying_the_result_format.md)
+
+[Source Filtering](./7.Controlling_Query_Results/source_filtering.md)
+
+[Specifying the Result Size](./7.Controlling_Query_Results/specifying_the_result_size.md)
+
+[Specifying an Offset](./7.Controlling_Query_Results/specifying_an_offset.md)
+
+[Pagination](./7.Controlling_Query_Results/pagination.md)
+
+[Sorting Results in Elasticsearch](./7.Controlling_Query_Results/sorting_results_in_elasticsearch.md)
+
+[Sorting by Multi-Value Fields](./7.Controlling_Query_Results/sorting_by_multi-value_fields.md)
+
+
+
+
+
+[Introduction to Aggregations in Elasticsearch](./8.Aggregations/introduction_to_aggregations_in_elasticsearch.md)
+
+[Metric Aggregations](./8.Aggregations/metric_aggregations.md)
+
+[Introduction to Bucket Aggregations](./8.Aggregations/introduction_to_bucket_aggregations.md)
+
+[Document Counts Approximately](./8.Aggregations/document_counts_approximately.md)
+
+[Nested Aggregations in Elasticsearch](./8.Aggregations/nested_aggregations_in_elasticsearch.md)
+
+[Filtering Out Documents in Aggregations](./8.Aggregations/filtering_out_documents_in_aggregations.md)
+
+[Defining Bucket Rules with Filters](./8.Aggregations/defining_bucket_rules_with_filters.md)
+
+[Range Aggregations in Elasticsearch](./8.Aggregations/range_aggregations_in_elasticsearch.md)
+
+[Histograms in Elasticsearch](./8.Aggregations/histograms_in_elasticsearch.md)
+
+[Global Aggregation in Elasticsearch](./8.Aggregations/global_aggregation_in_elasticsearch.md)
+
+[Missing Field Values in Elasticsearch](./8.Aggregations/missing_field_values_in_elasticsearch.md)
+
+[Aggregating Nested Objects](./8.Aggregations/aggregating_nested_objects.md)
+
+
+
+
+
+
+
+
+
+
+[Proximity Searches](./9.Improving_Search_Results/proximity_searches.md)
+
+[Affecting Relevance Scoring with Proximity](./9.Improving_Search_Results/affecting_relevance_scoring_with_proximity.md)
+
+[Fuzzy Match Query (Handling Typos)](./9.Improving_Search_Results/fuzzy_match_query_handling_typos.md)
+
+[Fuzzy Query in Elasticsearch](./9.Improving_Search_Results/fuzzy_query_in_elasticsearch.md)
+
+[Adding Synonyms in Elasticsearch](./9.Improving_Search_Results/adding_synonyms_in_elasticsearch.md)
+
+[Adding Synonyms from File](./9.Improving_Search_Results/adding_synonyms_from_file.md)
+
+[Highlighting Matches in Fields](./9.Improving_Search_Results/highlighting_matches_in_fields.md)
+
+[Stemming in Elasticsearch](./9.Improving_Search_Results/stemming_in_elasticsearch.md)
+
+
 8al9IxNPWyxGe8xdVD9h
